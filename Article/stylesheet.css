@@ -9,6 +9,12 @@
 /*---------------------------------------
      NAVBAR MENU                
   -----------------------------------------*/
+  .Logo1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 70px;
+    height: 70px;
+  }
 /* .Logo1 {
   display: flex;
   justify-content: flex-start;
