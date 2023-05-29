@@ -1,5 +1,9 @@
 
 @media screen and (max-width: 820px) {
+  .body {
+    background-color: #edf1f8;
+  }
+  
   .menu,
   .user_option {
       display: none;
