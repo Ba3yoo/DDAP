@@ -6,15 +6,16 @@
   max-width: 1200px;
   padding: 0 60px;
 }
+.Logo1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 70px;
+  height: 70px;
+}
 /*---------------------------------------
      NAVBAR MENU                
   -----------------------------------------*/
-  .Logo1 {
-    display: flex;
-    justify-content: flex-start;
-    width: 70px;
-    height: 70px;
-  }
+  
 /* .Logo1 {
   display: flex;
   justify-content: flex-start;
