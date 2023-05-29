@@ -1,0 +1,343 @@
+* {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 60px;
+}
+/*---------------------------------------
+     NAVBAR MENU                
+  -----------------------------------------*/
+.Logo1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 70px;
+  height: 70px;
+}
+.Navbar {
+  background-color: #133041;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.Navbar .Logo1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+.Navbar .nav-items {
+  display: flex;
+  align-items: center;
+}
+.Navbar .nav-items :first-child {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.Navbar .nav-items a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.Navbar a {
+  padding: 10px;
+}
+.Navbar a:first-child {
+  margin-right: 0;
+  padding-left: 20px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #0078dd;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #0078dd;
+}
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+  .Navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .Navbar .nav-items {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .Navbar .nav-items a {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .Navbar a:first-child {
+    padding-left: 0;
+  }
+  .Navbar.active .nav-items {
+    display: flex;
+  }
+  .Navbar .menu-icon {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+    margin-left: auto;
+  }
+  .Navbar.active .menu-icon {
+    transform: rotate(90deg);
+  }
+  #navbarItems {
+    display: none;
+  }
+  .Navbar.active #navbarItems {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  .Navbar .Button {
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+  .Navbar .Button button {
+    margin-left: 10px;
+  }
+}
+
+/*---------------------------------------
+     FIRST                
+  -----------------------------------------*/
+.First {
+  background-color: #edf1f8;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+  padding-top: 5px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+.Penjelasan {
+  padding-top: 80px;
+}
+.PGambar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  filter: drop-shadow(8px 8px 32px rgba(74, 84, 104, 0.5));
+}
+img {
+  border-radius: 10%;
+  max-width: 100%;
+  height: auto;
+}
+.button1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0078dd;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  float: right;
+}
+@media (max-width: 768px) {
+  .button1 {
+    float: none;
+    margin-top: 10px;
+  }
+}
+.button1:hover {
+  background-color: #777;
+}
+/*---------------------------------------
+     Second                
+  -----------------------------------------*/
+.Second {
+  padding-top: 50px;
+  background-color: #edf1f8;
+}
+.Penjelasan1 {
+  padding-top: 80px;
+}
+.h1 {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.gambar-container {
+  display: flex;
+  padding-top: 10px;
+}
+.image-item {
+  text-align: center;
+  margin-right: 80px;
+}
+.image-item img {
+  display: block;
+  margin-bottom: 5px;
+  width: 350px;
+  height: auto;
+  box-shadow: 8px 8px 32px rgba(74, 84, 104, 0.5);
+}
+.image-item p {
+  margin: 0;
+}
+.Ar {
+  text-align: left;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a :hover {
+  color: #333;
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .gambar-container {
+    justify-content: flex-start;
+  }
+
+  .image-item {
+    margin-right: 80px;
+  }
+}
+/*---------------------------------------
+     New                
+  -----------------------------------------*/
+.new {
+  background-color: #edf1f8;
+}
+/*---------------------------------------
+     Footer                
+  -----------------------------------------*/
+.last {
+  background-color: #edf1f8;
+  padding-top: 50px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background: #1a202c;
+}
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .logonormal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .footer .logonormal {
+    padding-left: 0;
+    justify-content: center;
+  }
+}
+.footer img {
+  padding-right: 10px;
+}
+.footer img .github {
+  padding-right: 0px;
+  width: 20px;
+  height: 20px;
+}
+.footer .logo .logonormal .github {
+  width: 48px;
+  filter: drop-shadow(8px 8px 32px rgba(74, 84, 104, 0.5));
+}
+.footer .logo .logonormal .whatsapp {
+  width: 48px;
+  filter: drop-shadow(8px 8px 32px rgba(74, 84, 104, 0.5));
+}
+.footer .logo .logonormal .instagram {
+  width: 48px;
+  filter: drop-shadow(8px 8px 32px rgba(74, 84, 104, 0.5));
+}
+.footer .logo .logonormal .linkedin {
+  width: 48px;
+  filter: drop-shadow(8px 8px 32px rgba(74, 84, 104, 0.5));
+}
+
+/*  */
+
+.footer .text {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  height: 50px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.footer .text .hakcipta {
+  width: 300px;
+}
+.footer .text .kebijakan {
+  float: right;
+}
+
+.footer .text .hakcipta p {
+  float: left;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  font-feature-settings: "calt" off;
+  color: #cbd2e0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.footer .text .hakcipta {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.footer .text .kebijakan a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 10px;
+  float: right;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
