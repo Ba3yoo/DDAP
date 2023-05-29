@@ -18,28 +18,40 @@
   </head>
   <body>
     <!----- Navbar Menu ------->
-    <div>
-      <nav class="Navbar">
-        <div class="Logo1">
-          <img src="Gambar/KEBI.png" alt="KEBI" />
-          <a class="navbar-brand" href="#"></a>
+    <nav class="custom_menu">
+      <nav class="navbar">
+        <div class="logo">
+          <p>KEBI</p>
         </div>
-        <div class="menu-icon" onclick="toggleNavbar()">&#9776;</div>
         <div class="container">
-          <div class="nav-items" id="navbarItems">
-            <a href="#">Halaman Utama</a>
-            <a href="#">Blog</a>
-            <a href="#">About</a>
+          <div class="menu">
+            <a href="#">Beranda</a>
+            <a href="../Programs/aa.html">Programs</a>
             <a href="Article.html">Article</a>
             <a href="#">FAQ</a>
+            <a href="../about/about.html" class="active">About</a>
+          </div>
+          <div class="user_option">
+            <a type="Login" class="Login" href="login.html">Login</a>
+            <a type="button" class="Daftar" href="register.html">Daftar</a>
+          </div>
+
+          <div class="mobile_menu">
+            <div class="mobile_menu_icon">&#9776;</div>
+            <div class="mobile_menu_list">
+              <a href="#">Beranda</a>
+              <a href="../Programs/aa.html">Programs</a>
+              <a href="Article.html">Article</a>
+              <a href="#">FAQ</a>
+              <a href="../about/about.html" class="active">About</a>
+              <a type="Login" class="Login" href="login.html">Login</a>
+              <a type="button" class="Daftar" href="register.html">Daftar</a>
+            </div>
           </div>
         </div>
-        <div class="Button">
-          <button type="button" class="Button">Masuk</button>
-          <button type="button" class="Button">Login</button>
-        </div>
       </nav>
-    </div>
+    </nav>
+
     <section class="new">
       <div class="container">
         <div class="article">
