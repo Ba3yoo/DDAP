@@ -1,3 +1,14 @@
+@media screen and (min-width: 820px ) {
+  body {
+      width: 100%;
+      margin: 0%;
+  }
+  /*  */
+  /*  */
+  .mobile_menu {
+  display: none;
+  }
+
 p {
   margin-block-start: 0em;
   margin-block-end: 0em;
@@ -549,4 +560,5 @@ div.box.n3 {
   flex: none;
   order: 1;
   flex-grow: 0;
+}
 }
