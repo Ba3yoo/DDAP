@@ -33,7 +33,7 @@ div.boxframe {
   gap: 52px;
 
   position: absolute;
-  width: 1304px;
+  width: 1300px;
   height: 532px;
   left: 0px;
   top: 145px;
@@ -46,7 +46,7 @@ div.box {
   align-items: flex-start;
   padding: 36px 24px;
   gap: 24px;
-  width: 350px;
+  width: 300px;
   height: 400px;
   background: #02d7e0;
   box-shadow: 8px 8px 32px rgba(74, 84, 104, 0.5);
@@ -87,7 +87,7 @@ div.box.n3 {
 .trendimage {
   position: static;
   box-sizing: border-box;
-  width: 350px;
+  width: 300px;
   height: 200px;
   background: #edf0f7;
   border: 2px solid #2d3648;
