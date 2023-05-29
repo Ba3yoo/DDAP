@@ -1,0 +1,406 @@
+
+.custom_menu {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #1A202C;
+    width: 100%;
+}
+
+.custom_menu .navbar{
+    /* float: left; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    /* margin-left: 5%; */
+}
+
+.custom_menu .navbar .logo{
+    margin-left: 2.5% ;
+    float: left;    
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    width: 30%;
+    
+    /* height: 48px; */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+}
+.custom_menu .navbar .logo p{
+    padding: 10px;
+    border-radius: 4px;
+    background: #CBD2E0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'calt' off;
+    color: #1A202C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.custom_menu .navbar .container {
+    margin-right: 10%;
+    width: 65%;
+    float: right;
+    display: flex;
+    padding: 0px;
+    height: 48px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.custom_menu .navbar .container .menu {
+    /* margin-right: 15%; */
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 50%;
+    height: 48px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 2.5%;
+}
+
+/* .custom_menu .navbar .container .menu */
+.custom_menu .navbar .container .menu a{
+    /* gap: 211px; */
+    text-decoration: none;
+    /* margin-right: 100%; */
+    /* width: 58px; */
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'calt' off;
+    color: #CBD2E0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.custom_menu .navbar .container .user_option{
+    margin-left: 20%;
+    margin-right: 0%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 14px;
+    height: 50px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.custom_menu .navbar .container .user_option .Login{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 48px;
+    color: white;
+    border: 2px solid #CBD2E0;
+    border-radius: 6px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.custom_menu .navbar .container .user_option .Daftar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 48px;
+    background: #CBD2E0;
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.custom_menu .navbar .container .user_option a{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'calt' off;
+    color: #1A202C;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.active {
+    border-bottom: 2px solid;
+}
+
+.mobile_menu_list {
+    display: none;
+}
+.mobile_menu_icon {
+    display: none;
+}
+
+.kotak{
+    /* left:10%; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 41px;
+    
+    position: absolute;
+    height: 432px;
+    left: 104px;
+    right: 104px;
+    top: 150px;
+}
+
+.kotak .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    width: 577px;
+    height: 432px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.kotak .text .login {
+    width: 577px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    color: #1A202C;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.kotak .text .isi .pengisian {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 18px;
+    width: 577px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.kotak .text .isi .pengisian .username{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 577px;
+    height: 84px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.kotak .text .isi .pengisian .username .judul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 577px;
+    height: 28px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.kotak .text .isi .pengisian .username .row {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 577px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 2px solid #CBD2E0;
+    box-shadow: 8px 8px 32px rgba(74, 84, 104, 0.5);
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.kotak .text .isi .pengisian .email {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px; 
+    width: 577px;
+    height: 84px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.kotak .text .isi .pengisian .email .judul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 577px;
+    height: 28px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.kotak .text .isi .pengisian .email .row {
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 577px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 2px solid #CBD2E0;
+    box-shadow: 8px 8px 32px rgba(74, 84, 104, 0.5);
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.kotak .text .isi .pengisian .password {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px; 
+    width: 577px;
+    height: 84px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.kotak .text .isi .pengisian .password .judul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px; 
+    width: 577px;
+    height: 28px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.kotak .text .isi .pengisian .password .row {
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 577px;
+    height: 48px;  
+    background: #FFFFFF; 
+    border: 2px solid #CBD2E0;
+    box-shadow: 8px 8px 32px rgba(74, 84, 104, 0.5);
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.kotak .gambar {
+    margin-left: 20px;
+    box-sizing: border-box;
+    width: 432px;
+    height: 432px;
+    background: #EDF0F7;
+    border: 2px solid #2D3648; 
+    box-shadow: 8px 8px 32px rgba(74, 84, 104, 0.5);
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.kotak .text .isi .masuk {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 35px;
+    gap: 8px;
+    
+    width: 122px;
+    height: 40px;
+    background: #2D3648;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
