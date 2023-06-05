@@ -974,52 +974,6 @@ border-radius: 28px;
   align-self: stretch;
   flex-grow: 0;
 }
-
-.custom_menu .navbar{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center; 
-  padding: 10px 20px;  
-  width: 100%;
-  height: 20px;  
-  flex: none;
-  background: #1A202C;
-  align-self: stretch;
-  flex-grow: 0;
-}
-
-.custom_menu .navbar .logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: left;
-  background: #1A202C;  
-  width: 20%;
-  height: 20px;
-  border-radius: 4px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.custom_menu .navbar .logo p{
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: -0.01em;
-  font-feature-settings: 'calt' off;
-  color: #FFFFFF;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
 }
 
 body{
