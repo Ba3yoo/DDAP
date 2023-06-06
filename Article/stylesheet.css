@@ -122,27 +122,52 @@ button:hover {
 .First {
   background-color: #edf1f8;
 }
-
+.First .container h1 {
+  font-size: 400%;
+}
 h1 {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
+}
+.new{
+  text-align: left;
+  width: 50%;
 }
 p {
   padding-top: 5px;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: large;
+  margin-right: 50px;
+}
+.teks-container1 .button1 {
+  float: left;
+}
+.container .container2 .teks-container1{
+  float: left;
+  align-items: center;
+}
+.teks-container1 .profile img {
+  width: 80px;
+  height: 80px;
+  padding-bottom: 40px;
 }
 .Penjelasan {
   padding-top: 80px;
 }
 .PGambar {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
+  justify-content: flex-end;
+  align-items: right;
+  padding-top: 180px;
   padding-bottom: 50px;
   filter: drop-shadow(8px 8px 32px rgba(74, 84, 104, 0.5));
+}
+.penting {
+  border-radius: 10%;
+  max-width: 150%;
+  height: auto;
+  margin: 50px;
 }
 img {
   border-radius: 10%;
@@ -347,27 +372,26 @@ a :hover {
 /*---------------------------------------
      Artikel               
   -----------------------------------------*/
-.judul{
-  padding-top: 20px;
-  padding-bottom: 20px;
+.judul {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .container1 {
   display: flex;
-  padding-bottom: 40px;
 }
-.container1 .paragraf{
+.container1 .paragraf {
   padding-top: 10px;
 }
 .gambar-container {
   flex-basis: 140%;
   margin-right: 20px;
+  height: 250px;
 }
 .paragraf {
   text-align: left;
   padding-bottom: 40px;
 }
-h4{
-  padding-bottom: 40px;
+h4 {
   text-align: center;
 }
 .paragraf1 {
@@ -379,5 +403,51 @@ ol {
 }
 li {
   padding-top: 20px;
+}
+/*---------------------------------------
+     Essay               
+  -----------------------------------------*/
+.container2 {
+  display: flex;
+}
+.teks-container1 .paragraf {
+  padding-right: 20px;
+  margin-right: 10px;
+}
+.gambar-container1 {
+  float: right;
+  flex-basis: 170%;
+  margin-left: 20px;
+  align-items: center;
+  padding-top: 10px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.gambar-bulat {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.nama-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.nama {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.nama1 {
+  font-style: italic;
+  text-align: left;
 }
 
