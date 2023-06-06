@@ -420,6 +420,10 @@ li {
   align-items: center;
   padding-top: 10px;
 }
+.gambar-container1 img {
+  max-width: 100%;
+  height: auto;
+}
 .profile {
   display: flex;
   align-items: center;
@@ -448,4 +452,50 @@ li {
 .nama1 {
   font-style: italic;
   text-align: left;
+}
+@media screen and (max-width: 768px) {
+  .teks-container1 .paragraf {
+    padding-right: 0;
+    margin-right: 0;
+    padding-bottom: 10px;
+  }
+
+  .gambar-container1 {
+    flex-basis: 100%;
+    margin-left: 0;
+  }
+
+  .nama-container {
+    padding-left: 0;
+  }
+}
+/*---------------------------------------
+     MotiationLetter               
+  -----------------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+}
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 450px;
+  display: block;
+  border-radius: 0%;
+  padding-bottom: 40px;
+}
+
+.image-container .caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
 }
