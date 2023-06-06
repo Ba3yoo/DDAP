@@ -129,9 +129,8 @@ h1 {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
-.new{
+.new {
   text-align: left;
-  width: 50%;
 }
 p {
   padding-top: 5px;
@@ -143,7 +142,7 @@ p {
 .teks-container1 .button1 {
   float: left;
 }
-.container .container2 .teks-container1{
+.container .container2 .teks-container1 {
   float: left;
   align-items: center;
 }
@@ -450,4 +449,3 @@ li {
   font-style: italic;
   text-align: left;
 }
-
