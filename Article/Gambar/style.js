@@ -1,4 +1,4 @@
 function toggleNavbar() {
-    const navbar = document.querySelector('.Navbar');
-    navbar.classList.toggle('active');
-  }
+  var navbarItems = document.getElementById("navbarItems");
+  navbarItems.classList.toggle("active");
+}
