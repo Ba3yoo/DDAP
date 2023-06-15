@@ -454,6 +454,14 @@ li {
   text-align: left;
 }
 @media screen and (max-width: 768px) {
+  .First{
+    margin-bottom: 50px;
+  }
+  
+  .container2{
+    display: inline;
+  }
+  
   .teks-container1 .paragraf {
     padding-right: 0;
     margin-right: 0;
