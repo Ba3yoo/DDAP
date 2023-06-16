@@ -261,7 +261,6 @@ h1 {
 }
 p {
   padding-top: 5px;
-  text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: large;
   margin-right: 50px;
@@ -396,6 +395,51 @@ a :hover {
   -----------------------------------------*/
 .new {
   background-color: #edf1f8;
+}
+.container4 {
+  display: flex;
+}
+ul {
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+.balok {
+  margin: 20px;
+  padding: 15px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  flex-basis: 50%;
+  background-color: #cbd2e0;
+  border-radius: 10px;
+}
+.balok1 {
+  flex-basis: 100%;
+  margin: 20px;
+  padding: 15px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  background-color: #cbd2e0;
+  border-radius: 10px;
+}
+.balok1 .paragraf3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+}
+.balok .h41 {
+  align-items: center;
+  padding-bottom: 10px;
+}
+.paragraf3{
+  align-items: flex-start;
+}
+.balok .paragraf3 {
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+}
+@media (max-width: 768px) {
+  .container4 {
+    display: inline;
+  }
 }
 /*---------------------------------------
      Footer                
