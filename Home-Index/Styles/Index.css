@@ -1,0 +1,71 @@
+.home-main {
+  background: url(../Images/learning-language.jpg) no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.main-content {
+  color: #171717;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.main-content h1 {
+  font-size: 3rem; 
+}
+
+.main-content p {
+  font-size: 1.5rem;
+  margin: .5rem 0; 
+}
+
+.gradient-btn {
+  width: 200px;
+  height: 45px;
+  font-size: 1.2rem;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  color: #171717;
+  background-image: linear-gradient(to right, #DB88F2 0%,  #d477ee 51%,  #c544e9);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-size: 200% auto;
+  transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -ms-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+
+.gradient-btn:hover {
+  background-position: right center;
+}
+
+@media screen and (max-width:600px) {
+  .main-content h1{
+    font-size: 2.25rem;
+  }
+
+  .main-content p {
+    font-size: 1rem;
+  }
+
+  .gradient-btn {
+    width: 175px;
+    height: 40px;
+    font-size: .8rem;
+  }
+}
