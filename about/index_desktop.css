@@ -113,7 +113,7 @@ display: none;
     gap: 10px;
     
     width: 100%;
-    height: 100px;
+    height: 0px;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -471,6 +471,18 @@ border-bottom: 0.3px solid #171717
     border-radius: 28px;
     }
     
+
+    .about_section2 .vision .image2 img{
+    width: 396px;
+    height: 410px;
+    border-radius: 28px;
+    }
+    
+    .about_section2 .mission .image2 img{
+        width: 396px;
+        height: 396px;
+        border-radius: 28px;
+    }
     
     .about_section2 .mission .background  {
         margin-right: 100%;
