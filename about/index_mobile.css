@@ -819,6 +819,12 @@ border-radius: 28px;
   flex-grow: 0;
 }
 
+.about_section4 .kembali :hover{
+  transition:0.8s ease;
+  color: red;
+  border-radius: 8px;
+}
+
 .about_section4 .kembali a{
   text-decoration: none;
   width: 55px;
@@ -979,6 +985,11 @@ border-radius: 28px;
   flex-grow: 0;
 }
 
+.faq .QnA a:hover{
+  background: pink;
+  transition: 0.8s ease;
+  border-radius: 8px;
+}
 .faq{
   display: flex;
   flex-direction: column;
@@ -1077,12 +1088,12 @@ flex-grow: 0;
   border-radius: 8px;
   flex: none;
   order: 0;
+  text-decoration: none;
   flex-grow: 0;
 }
 
 .faq .QnA .Q h1{
   width: 90%;
-  /* height: 34px; */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -1255,6 +1266,11 @@ flex-grow: 0;
   flex-grow: 0;
 }
 
+.faq .hubungi .box img{
+  width: 100%;
+  height: 116%;
+  }
+  
 
 
 
