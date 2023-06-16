@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @media screen and (min-width: 820px ) {
 body {
@@ -75,7 +76,7 @@ display: none;
     gap: 12px;
     
     /* width: 100%; */
-    height: 289px;
+    /* height: 289px; */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -110,9 +111,9 @@ display: none;
     align-items: center;
     padding: 0px;
     gap: 10px;
-    
+    margin-top: 10%;
     width: 100%;
-    height: 210px;
+    height: 0px;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -131,7 +132,8 @@ display: none;
 
 
 .about_section1 .text .logo {
-    margin-top: 30px;
+    margin-top: 20%;
+    /* margin-top: 30px; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -155,180 +157,237 @@ display: none;
     order: 0;
     flex-grow: 0;
 }
-/*  */
+/*  */   
 
-.custom_menu {
-    display: flex;
-    align-items: flex-start;
-    padding: 0px;
-    position: absolute;
-    height: 100px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    background: #1A202C;
-    width: 100%;
+.header {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 12px 12px;
+/* gap: 345px; */
+position: absolute;
+width: 100%;
+height: 111px;
+left: 0px;
+top: 0px;
+background: #FBE1FF;
+border-bottom: 0.3px solid #171717
 }
 
-.custom_menu .navbar{
-    /* float: left; */
+.header .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 35%;
+    height: 87px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header .menu .logo {
+    width: 10%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header .menu .logo img {
+    width: 87px;
+    height: 87px;
+}
+
+.header .menu .list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    height: 100px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    /* margin-left: 5%; */
-}
-
-.custom_menu .navbar .logo{
-    margin-left: 2.5% ;
-    float: left;    
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center;
-    align-items: center; */
-    width: 30%;
-    
-    /* height: 48px; */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    
-    
-}
-.custom_menu .navbar .logo p{
-    padding: 10px;
-    border-radius: 4px;
-    background: #CBD2E0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: -0.01em;
-    font-feature-settings: 'calt' off;
-    color: #1A202C;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.custom_menu .navbar .container {
-    margin-right: 10%;
-    width: 65%;
-    float: right;
-    display: flex;
     padding: 0px;
-    height: 48px;
+    gap: 45px;
+    width: 25%;
+    height: 24px;
+    margin-left: 40px;
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
-.custom_menu .navbar .container .menu {
-    /* margin-right: 15%; */
-    float: left;
+.header .menu .list .beranda{
+    text-decoration: none;
+    width: 50px;
+    height: 24px;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off;
+    color: #171717;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.header .menu .list .program{
+    margin-left: 10px;
+    text-decoration: none;
+    width: 50px;
+    height: 24px;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off;
+    color: #171717;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.header .menu .list .article{
+    margin-left: 10px;
+    text-decoration: none;
+    width: 50px;
+    height: 24px;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off;
+    color: #171717;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.header .menu .list .about{
+    border-bottom: 2px solid;
+    text-decoration: none;
+    width: 50px;
+    height: 24px;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off;
+    color: #171717;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header .search_auth {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    justify-content: flex-end;
     padding: 0px;
-    gap: 30px;
+    gap: 51px;   
     width: 50%;
     height: 48px;
     flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin-right: 2.5%;
-}
-
-/* .custom_menu .navbar .container .menu */
-.custom_menu .navbar .container .menu a{
-    /* gap: 211px; */
-    text-decoration: none;
-    /* margin-right: 100%; */
-    /* width: 58px; */
-    height: 24px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: -0.01em;
-    font-feature-settings: 'calt' off;
-    color: #CBD2E0;
-    flex: none;
     order: 1;
     flex-grow: 0;
 }
 
-.custom_menu .navbar .container .user_option{
-    margin-left: 20%;
-    margin-right: 0%;
-    float: right;
+.header .search_auth .search{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+}
+
+.header .search_auth .user_option {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 0px;
-    gap: 14px;
-    height: 50px;
+    gap: 12px;
+    width: 50%;
+    height: 48px;
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
-.custom_menu .navbar .container .user_option .Login{
+.header .search_auth .user_option .masuk{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+    width: 107px;
+    height: 48px;
+    border: 1px solid #171717;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header .search_auth .user_option .masuk a{
+    text-decoration: none;
+    width: 100%;
+    height: 24px;    
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #171717;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header .search_auth .user_option .daftar {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    padding: 12px 24px;
+    width: 107px;
     height: 48px;
-    color: white;
-    border: 2px solid #CBD2E0;
-    border-radius: 6px;
+    background: #DB88F2;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.header .search_auth .user_option .daftar a{
+    text-decoration: none;
+    
+    width: 59px;
+    height: 24px;
+    
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #171717;
     flex: none;
     order: 0;
     flex-grow: 0;
-}
-
-.custom_menu .navbar .container .user_option .Daftar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 48px;
-    background: #CBD2E0;
-    border-radius: 6px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.custom_menu .navbar .container .user_option a{
     
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: -0.01em;
-    font-feature-settings: 'calt' off;
-    color: #1A202C;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.active {
-    border-bottom: 2px solid;
 }
 
 
@@ -413,6 +472,18 @@ display: none;
     border-radius: 28px;
     }
     
+
+    .about_section2 .vision .image2 img{
+    width: 396px;
+    height: 410px;
+    border-radius: 28px;
+    }
+    
+    .about_section2 .mission .image2 img{
+        width: 396px;
+        height: 396px;
+        border-radius: 28px;
+    }
     
     .about_section2 .mission .background  {
         margin-right: 100%;
@@ -712,14 +783,6 @@ margin-left: 2%;
 
 /*  */
 .about_section4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 64px;
-    position: absolute;
-}
-.about_section4 {
     margin-top: 4%;
     display: flex;
     flex-direction: column;
@@ -730,7 +793,7 @@ margin-left: 2%;
     width: 100%;
     height: 800px;
     left: center;
-    top: 2850px;
+    top: 2650px;
 }
 
 .about_section4 .gambar {
@@ -738,7 +801,7 @@ box-sizing: border-box;
 width: 25%;
 height: 260px;
 background: #EDF0F7;
-border: 2px solid #2D3648;
+/* border: 2px solid #2D3648; */
 border-radius: 8px;
 flex: none;
 order: 0;
@@ -816,13 +879,19 @@ order: 1;
 flex-grow: 0;
 }
 
+.about_section4 .gambar img{
+width: 100%;
+height: 116%;
+}
+
+
 /*  */
 .footer {
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-top: 2450px;
+top: 4900px;
 
 position: relative;
 width: 100%;
@@ -965,4 +1034,317 @@ float: right;
     line-height: 150%;
     }
     
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 100%;
+    height: 1862px;
+    top: 3700px;
+    
+}
+.faq .isi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 104px;
+    
+    width: 100%;
+    height: 1241px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.faq .isi .headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 100%;
+    height: 97px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.faq .isi .headline h1{
+    width: 100%;
+    height: 58px;
+    align-self: stretch;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #1A202C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.faq .isi .headline p{
+    width: 100%;
+    height: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'calt' off;
+    color: #1A202C;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.faq .QnA{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 24px;
+    width: 90%;
+    height: 1040px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.about_section4 .kembali :hover{
+    transition:0.8s ease;
+    color: red;
+    border-radius: 8px;
+  }
+
+.faq .QnA a:hover{
+    background: pink;
+    transition: background-color 0.8s ease;
+    border-radius: 8px;
+}
+
+.faq .QnA .Q{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 24px 18px 18px;
+    gap: 4px;
+    width: 100%;
+    height: 80px;
+    background: #a5b1c9;
+    box-shadow: 8px 8px 32px rgba(113, 125, 150, 0.5);
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.faq .QnA .Q h1{
+    width: 90%;
+    height: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 140%;
+    color: #1A202C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+    
+}
+
+.faq .QnA .Q button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px; 
+    width: 44px;
+    height: 44px;
+    background: #2D3648;
+    border-radius: 50px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.faq .hubungi{
+    margin-top: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 41px;
+    width: 90%;
+    height: 517px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.faq .hubungi .contact_us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 21px;
+    width: 60%;
+    height: 517px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.faq .hubungi .contact_us h1{
+    
+    width: 100%;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    
+    letter-spacing: 0.01em;
+    color: #1A202C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.faq .hubungi .contact_us .headbody{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 24px;
+    width: 100%;
+    height: 448px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.faq .hubungi .contact_us .headbody .isi{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 18px;
+    
+    width: 100%;
+    height: 384px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.faq .hubungi .contact_us .isi div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 90%;
+    height: 84px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.faq .hubungi .contact_us .isi p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2D3648;
+}
+
+.faq .hubungi .contact_us .isi input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 48px;
+    background: #FFFFFF;
+    border: 2px solid #CBD2E0;
+    box-shadow: 8px 8px 32px rgba(113, 125, 150, 0.5);
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.faq .hubungi .contact_us button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 35px;
+    gap: 8px;
+    width: 111px;
+    height: 40px;
+    background: #2D3648;
+    box-shadow: 8px 8px 24px rgba(45, 54, 72, 0.5);
+    border-radius: 8px;
+    flex: none;
+    order: 1;   
+    flex-grow: 0;
+}
+
+
+
+.faq .hubungi .box{
+    box-sizing: border-box;
+    width: 40%;
+    height: 380px;
+    background: #EDF0F7;
+    border: 2px solid #2D3648;
+    box-shadow: 8px 8px 32px rgba(113, 125, 150, 0.5);
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.faq .hubungi .box img{
+width: 100%;
+height: 116%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
