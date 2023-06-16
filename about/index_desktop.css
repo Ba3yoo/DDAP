@@ -111,7 +111,7 @@ display: none;
     align-items: center;
     padding: 0px;
     gap: 10px;
-    
+    margin-top: 10%;
     width: 100%;
     height: 0px;
     flex: none;
@@ -132,7 +132,8 @@ display: none;
 
 
 .about_section1 .text .logo {
-    margin-top: 30px;
+    margin-top: 20%;
+    /* margin-top: 30px; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -782,14 +783,6 @@ margin-left: 2%;
 
 /*  */
 .about_section4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 64px;
-    position: absolute;
-}
-.about_section4 {
     margin-top: 4%;
     display: flex;
     flex-direction: column;
@@ -800,7 +793,7 @@ margin-left: 2%;
     width: 100%;
     height: 800px;
     left: center;
-    top: 2850px;
+    top: 2650px;
 }
 
 .about_section4 .gambar {
