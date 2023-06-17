@@ -1126,7 +1126,7 @@ float: right;
     transition:0.8s ease;
     color: red;
     border-radius: 8px;
-  }
+}
 
 .faq .QnA a:hover{
     background: pink;
