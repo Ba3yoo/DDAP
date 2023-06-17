@@ -138,4 +138,10 @@ nav .fa-solid {
     font-size: 1rem;
     font-weight: 500;
   }
+
+  nav ul li span {
+    font-size: 1rem;
+    font-weight: 500;
+    display: none;
+  }
 }
