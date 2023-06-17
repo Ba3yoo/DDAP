@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./Styles/Navbar.css" />
     <title>KEBI</title>
   </head>
+
   <body>
     <section class="home-main">
       <nav>
@@ -28,14 +29,15 @@
           <a href="/">KEBI</a>
         </div>
 
-        <a class="fa-solid fa-bars" aria-hidden="true"></a>
+        <a class="fa-solid fa-bars" aria-hidden="true" id="openButton"></a>
 
-        <ul>
-          <a class="fa-solid fa-times" aria-hidden="true"></>
-          <li><a href="/">Beranda</a></li>
+        <ul class="menu-hidden">
+          <a class="fa-solid fa-times" aria-hidden="true" id="closeButton"></a>
+          <li><a href="/Home-Index/Index.html">Beranda</a></li>
           <li><a href="/">Program</a></li>
           <li><a href="/">Artikel</a></li>
           <li><a href="/">Tentang</a></li>
+          <li><span> | </span></li>
           <li><a href="/">Masuk</a></li>
           <li><a href="/">Daftar</a></li>
         </ul>
@@ -56,6 +58,6 @@
       <h1>About</h1>
     </section>
 
-    <script scr="./JS/Navbar.js"></script>
+    <script src="./JS/Navbar.js"></script>
   </body>
 </html>

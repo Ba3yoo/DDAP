@@ -17,12 +17,12 @@
 }
 
 .main-content h1 {
-  font-size: 3rem; 
+  font-size: 3rem;
 }
 
 .main-content p {
   font-size: 1.5rem;
-  margin: .5rem 0; 
+  margin: 0.5rem 0;
 }
 
 .gradient-btn {
@@ -33,18 +33,18 @@
   place-items: center;
   text-decoration: none;
   color: #171717;
-  background-image: linear-gradient(to right, #DB88F2 0%,  #d477ee 51%,  #c544e9);
+  background-image: linear-gradient(to right, #db88f2 0%, #d477ee 51%, #c544e9);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   background-size: 200% auto;
-  transition: .3s ease-in-out;
-  -webkit-transition: .3s ease-in-out;
-  -moz-transition: .3s ease-in-out;
-  -ms-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
   text-transform: uppercase;
   margin-top: 1.5rem;
   font-weight: 500;
@@ -54,8 +54,8 @@
   background-position: right center;
 }
 
-@media screen and (max-width:600px) {
-  .main-content h1{
+@media screen and (max-width: 600px) {
+  .main-content h1 {
     font-size: 2.25rem;
   }
 
@@ -66,6 +66,6 @@
   .gradient-btn {
     width: 175px;
     height: 40px;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
