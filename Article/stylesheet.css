@@ -105,9 +105,10 @@
   flex-grow: 0;
 }
 .header .menu .list .article {
-  margin-left: 10px;
+  border-bottom: 2px solid;
+  margin-left: 17px;
   text-decoration: none;
-  width: 50px;
+  width: 70px;
   height: 24px;
   font-family: "Archivo", sans-serif;
   font-style: normal;
@@ -123,7 +124,6 @@
   flex-grow: 0;
 }
 .header .menu .list .about {
-  border-bottom: 2px solid;
   text-decoration: none;
   width: 50px;
   height: 24px;
@@ -460,7 +460,8 @@ ul {
   border-top: #171717;
 }
 .Logo1 img{
-  width: 10%;
+  width: 87px;
+  height: 87px;
 }
 .one {
   display: flex;
