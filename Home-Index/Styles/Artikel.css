@@ -13,7 +13,7 @@
     -----------------------------------------*/
   
   .home-main {
-    background: url(../Home-Index/Images/learning-language.jpg) no-repeat;
+    background: url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80) no-repeat;
     background-size: cover;
     min-height: 100vh;
   }
@@ -415,8 +415,19 @@
     margin: auto 0;
   }
   
-  .footer .logo .company-logos {
+  .footer .logo .company-logos i {
     font-size: 2.5rem;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    margin: 0 0.6rem;
+  }
+  
+  .footer .logo .company-logos i:hover {
+    font-size: 2.5rem;
+    color: #fff;
   }
   
   .footer .text {
@@ -438,7 +449,6 @@
     .footer {
       padding: 2rem 0;
       background-color: #547cf2;
-      margin-top: 3rem;
     }
   
     .footer .logo {
