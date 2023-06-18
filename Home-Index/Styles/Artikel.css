@@ -612,7 +612,7 @@ li {
   .gambar-bulat {
     width: 60px;
     height: 60px;
-    padding-top: 30px;
+    margin-top: 10px;
   }
 }
 /*---------------------------------------
