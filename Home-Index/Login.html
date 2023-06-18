@@ -21,7 +21,7 @@
     <title>Login-KEBI</title>
   </head>
   <body>
-    <section>
+    <section class="login-main">
       <nav>
         <div class="brand">
           <img src="./Images/KEBI-Logo-Full_Color.png" alt="KEBI-logos_black" />
@@ -41,8 +41,57 @@
           <li><a href="./Login.html">Daftar</a></li>
         </ul>
       </nav>
+
+      <section class="login">
+        <div>
+          <h1>Masuk / Daftar</h1>
+          <form action="">
+            <div class="form-item">
+              <label for="email">Alamat email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-item">
+              <label for="password">Kata sandi</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+            <div class="form-item">
+              <input type="checkbox" id="remember" name="remember" />
+              <label for="remember">Ingat saya</label>
+            </div>
+            <button type="submit">Masuk / Daftar</button>
+          </form>
+        </div>
+      </section>
     </section>
-    
+
+    <section class="footer">
+      <div class="logo">
+        <div class="logokebi">
+          <img src="./images/KEBI-Logo-Full_Color.png" alt="KEBI-logos_black" />
+        </div>
+        <div class="company-logos">
+          <i class="fa-brands fa-google"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-discord"></i>
+        </div>
+      </div>
+      <div class="text">
+        <div class="hakcipta">
+          <p><span>&copy;</span> Hak Cipta 2023 - KEBI</p>
+        </div>
+        <div class="kebijakan">
+          <a>Kebijakan Privasi |</a>
+          <a>Syarat & Ketentuan |</a>
+          <a>Kebijakan Cookie |</a>
+          <a>Contact</a>
+        </div>
+      </div>
+    </section>
+
     <script src="./JS/Navbar.js"></script>
   </body>
 </html>
