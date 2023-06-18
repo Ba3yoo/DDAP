@@ -1,4 +1,4 @@
-nav {
+.nav {
   height: 70px;
   display: flex;
   align-items: center;
@@ -6,33 +6,33 @@ nav {
   padding: 0 2rem;
 }
 
-nav .brand {
+.nav .brand {
   display: flex;
   align-items: center;
 }
 
-nav .brand img {
+.nav .brand img {
   height: 60px;
   margin: 0 5px;
 }
 
-nav .brand a {
+.nav .brand a {
   color: #171717;
   text-decoration: none;
   font-size: 1.75rem;
   font-weight: bold;
 }
 
-nav ul {
+.nav ul {
   display: flex;
 }
 
-nav ul li {
+.nav ul li {
   list-style: none;
   margin: 0 10px;
 }
 
-nav ul li a {
+.nav ul li a {
   text-decoration: none;
   color: #171717;
   padding: 5px;
@@ -45,11 +45,11 @@ nav ul li a {
   position: relative;
 }
 
-nav ul li a:hover {
+.nav ul li a:hover {
   color: #db88f2;
 }
 
-nav ul li a::after {
+.nav ul li a::after {
   content: "";
   width: 100%;
   height: 3px;
@@ -70,7 +70,7 @@ nav ul li a::after {
   transform-origin: left;
 }
 
-nav ul li a:hover::after {
+.nav ul li a:hover::after {
   transform: scaleX(1);
   color: #db88f2;
   -webkit-transform: scaleX(1);
@@ -79,31 +79,31 @@ nav ul li a:hover::after {
   -o-transform: scaleX(1);
 }
 
-nav .fa-solid {
+.nav .fa-solid {
   color: #171717;
   font-size: 2rem;
   display: none;
 }
 
 @media screen and (max-width: 600px) {
-  nav .fa-solid {
+  .nav .fa-solid {
     display: block;
   }
 
-  nav ul .fa-solid {
+  .nav ul .fa-solid {
     margin-bottom: 30px;
     display: block;
   }
 
-  nav .brand img {
+  .nav .brand img {
     height: 40px;
   }
 
-  nav .brand a {
+  .nav .brand a {
     font-size: 1.2rem;
   }
 
-  nav ul {
+  .nav ul {
     flex-direction: column;
     position: absolute;
     top: 0;
@@ -122,7 +122,7 @@ nav .fa-solid {
     transform: translateX(100%);
   }
 
-  nav ul.menu-hidden {
+  .nav ul.menu-hidden {
     transform: translateX(0);
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
@@ -130,16 +130,16 @@ nav .fa-solid {
     -o-transform: translateX(0);
   }
 
-  nav ul li {
+  .nav ul li {
     margin-top: 10px;
   }
 
-  nav ul li a {
+  .nav ul li a {
     font-size: 1rem;
     font-weight: 500;
   }
 
-  nav ul li span {
+  .nav ul li span {
     font-size: 1rem;
     font-weight: 500;
     display: none;
