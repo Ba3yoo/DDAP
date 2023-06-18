@@ -94,6 +94,7 @@
 .about-sub-1 {
   background-color: #a7b9f1;
   padding: 3rem;
+  margin: 1.5rem auto;
 }
 
 .about-sub-2 {
@@ -185,7 +186,7 @@
   max-width: 800px;
   width: 90%;
   border-radius: 8px;
-  padding: 1rem .5rem;
+  padding: 1rem 0.5rem;
   margin: 3rem auto;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -204,11 +205,11 @@
   justify-content: space-evenly;
   color: #547cf2;
   font-size: 2.5rem;
-  transition: .3 ease-in;
-  -webkit-transition: .3 ease-in;
-  -moz-transition: .3 ease-in;
-  -ms-transition: .3 ease-in;
-  -o-transition: .3 ease-in;
+  transition: 0.3 ease-in;
+  -webkit-transition: 0.3 ease-in;
+  -moz-transition: 0.3 ease-in;
+  -ms-transition: 0.3 ease-in;
+  -o-transition: 0.3 ease-in;
   max-width: 75%;
   margin: 0px auto;
 }
@@ -217,7 +218,7 @@
   color: #171717;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .about-companies h1 {
     font-size: 1.5rem;
   }
@@ -232,9 +233,17 @@
   padding: 3rem 2rem 2rem 2rem;
 }
 
+.subscribe span {
+  color: #547cf2;
+}
+
+.sub-sub-about span {
+  font-weight: 500;
+}
+
 .subscribe-box {
   padding: 10px;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
 }
 
 .subscribe-box input {
@@ -255,9 +264,88 @@
   height: 40px;
   padding: 0 1rem;
   color: #fff;
+  font-weight: 500;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+.subscribe-box > button:hover {
+  background-color: #d289e6;
+  color: #000;
+}
+
+.footer {
+  padding: 2rem 0;
+  background-color: #547cf2;
+  margin-top: 3rem;
+}
+
+.footer .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  align-items: center;
+}
+
+.footer .logo img {
+  margin: auto 0;
+}
+
+.footer .logo .company-logos {
+  font-size: 2.5rem;
+}
+
+.footer .text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.footer .text .hakcipta {
+  font-weight: 500;
+}
+
+/* FOOTER */
+@media screen and (max-width:600px) {
+  .footer {
+    padding: 2rem 0;
+    background-color: #547cf2;
+    margin-top: 3rem;
+  }
+
+  .footer .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .logo img {
+    margin: .5rem 0;
+  }
+
+  .footer .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem .5rem;
+    text-decoration: none;
+  }
+
+  .footer .text .hakcipta {
+    font-weight: 500;
+  }
 }
