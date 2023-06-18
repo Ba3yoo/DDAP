@@ -3,7 +3,6 @@
   <head>
     <title>Article KEBI</title>
     <link rel="stylesheet" href="stylesheet.css" />
-    <script src="style.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -11,29 +10,51 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Images/KEBI-logos_black.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./Styles/Common.css" />
+    <link rel="stylesheet" href="./Styles/Navbar.css" />
+    <title>Artikel-KEBI</title>
   </head>
   <body>
     <!----- Navbar Menu ------->
-    <nav>
-      <div class="brand">
-        <img src="./Images/KEBI-Logo-Full_Color.png" alt="KEBI-logos_black" />
-        <a href="/">KEBI</a>
+    <section class="home-main">
+      <nav>
+        <div class="brand">
+          <img src="../Home-Index/Images/KEBI-Logo-Full_Color.png" alt="KEBI-logos_black" />
+          <a href="/">KEBI</a>
+        </div>
+        <a class="fa-solid fa-bars" aria-hidden="true" id="openButton"></a>
+        <ul class="menu-hidden">
+          <a class="fa-solid fa-times" aria-hidden="true" id="closeButton"></a>
+          <li><a href="./Index.html">Beranda</a></li>
+          <li><a href="./Program.html">Program</a></li>
+          <li><a href="Article.html">Artikel</a></li>
+          <li><a href="./Tentang.html">Tentang</a></li>
+          <li><span> | </span></li>
+          <li><a href="./Login.html">Masuk</a></li>
+          <li><a href="./Login.html">Daftar</a></li>
+        </ul>
+      </nav>
+      <div class="main-content">
+        <h1>Kesedihan yang Memotivasi</h1>
+        <p>
+          Motivation Letter
+        </p>
       </div>
-
-      <a class="fa-solid fa-bars" aria-hidden="true" id="openButton"></a>
-
-      <ul class="menu-hidden">
-        <a class="fa-solid fa-times" aria-hidden="true" id="closeButton"></a>
-        <li><a href="/Home-Index/Index.html">Beranda</a></li>
-        <li><a href="/">Program</a></li>
-        <li><a href="/">Artikel</a></li>
-        <li><a href="/">Tentang</a></li>
-        <li><span> | </span></li>
-        <li><a href="/">Masuk</a></li>
-        <li><a href="/">Daftar</a></li>
-      </ul>
-    </nav>
-
+    </section>
     <!----- First ------->
     <section class="First">
       <div class="container">
@@ -269,5 +290,7 @@
         </div>
       </div>
     </section>
+
+    <script src="./style.js"></script>
   </body>
 </html>

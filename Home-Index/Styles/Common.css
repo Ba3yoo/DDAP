@@ -8,3 +8,10 @@
 body {
   min-height: 100vh;
 }
+
+.copyright {
+  text-align: center;
+  background-color: #e9e9e9;
+  padding: 10px;
+  font-size: .9rem;
+}
