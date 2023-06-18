@@ -403,7 +403,7 @@ ul {
   position: relative;
   width: 100%;
   height: 150px;
-  background: #6387f2;
+  background: #3767f3;
   border-top: #171717;
   padding-bottom: 3rem;
   padding-top: 1.5rem;
@@ -423,12 +423,6 @@ ul {
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
-  .footer .logonormal {
-    padding-left: 0;
-    justify-content: center;
-  }
-}
 .footer img {
   padding-right: 10px;
 }
@@ -507,6 +501,406 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background: #3767f3;
+  }
+
+  .footer .logo {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    height: 96px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .footer .logo .logokebi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    width: 116px;
+    height: 40px;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .footer .logo .logonormal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 152px;
+    height: 32px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .footer .logo .logonormal img {
+    width: 32px;
+    height: 32px;
+    filter: drop-shadow(8px 8px 32px rgba(74, 84, 104, 0.5));
+    border-radius: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  /*  */
+  .footer .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 311px;
+    height: 75px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .footer .text .hakcipta p {
+    width: 311px;
+    height: 21px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-feature-settings: "calt" off;
+    color: black;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .footer .text .kebijakan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+    height: 42px;
+    flex: none;
+  }
+
+  .footer .text .kebijakan a {
+    text-decoration: none;
+    height: 42px;
+    padding-right: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-feature-settings: "calt" off;
+    color: black;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .faq .QnA a:hover {
+    background: pink;
+    transition: 0.8s ease;
+    border-radius: 8px;
+  }
+  .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 100%;
+    height: 1862px;
+    top: 2900px;
+  }
+
+  .faq .isi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 72px;
+    width: 100%;
+    height: 1179px;
+    top: 162px;
+  }
+
+  .faq .isi .headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 100%;
+    height: 97px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .faq .isi .headline h1 {
+    width: 100%;
+    height: 58px;
+    align-self: stretch;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #1a202c;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .faq .isi .headline p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-feature-settings: "calt" off;
+    color: #1a202c;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .faq .QnA {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 90%;
+    height: 1028px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .faq .QnA .Q {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 24px 0px 18px;
+    gap: 4px;
+    width: 95%;
+    height: 80px;
+    background: #cbd2e0;
+    box-shadow: 8px 8px 32px rgba(113, 125, 150, 0.5);
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    text-decoration: none;
+    flex-grow: 0;
+  }
+
+  .faq .QnA .Q h1 {
+    width: 90%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    color: #1a202c;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+
+  .faq .QnA .Q button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    width: 30px;
+    height: 30px;
+    background: #2d3648;
+    border-radius: 50px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .faq .hubungi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 41px;
+    position: absolute;
+    width: 90%;
+    height: 540px;
+    top: 1300px;
+  }
+
+  .faq .hubungi .contact_us {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 60%;
+    height: 540px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .faq .hubungi .contact_us h1 {
+    width: 100%;
+    height: 48px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 130%;
+    color: #1a202c;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .faq .hubungi .contact_us .headbody {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 100%;
+    height: 400px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .faq .hubungi .contact_us .headbody .isi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 18px;
+    width: 100%;
+    height: 402px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .faq .hubungi .contact_us .isi div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 90%;
+    height: 90px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .faq .hubungi .contact_us .isi p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #2d3648;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+
+  .faq .hubungi .contact_us .isi input {
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 48px;
+    background: #ffffff;
+    border: 2px solid #cbd2e0;
+    box-shadow: 8px 8px 32px rgba(74, 84, 104, 0.5);
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .faq .hubungi .contact_us button {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 111px;
+    height: 40px;
+    background: #2d3648;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .faq .hubungi .box {
+    box-sizing: border-box;
+
+    width: 40%;
+    height: 320px;
+    background: #edf0f7;
+    border: 2px solid #2d3648;
+    box-shadow: 8px 8px 32px rgba(74, 84, 104, 0.5);
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .faq .hubungi .box img {
+    width: 100%;
+    height: 116%;
+  }
 }
 /*---------------------------------------
      Artikel               
