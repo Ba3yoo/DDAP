@@ -91,6 +91,16 @@
   text-align: left;
 }
 
+.about-sub-1 {
+  background-color: #a7b9f1;
+  padding: 3rem;
+}
+
+.about-sub-2 {
+  background-color: #eddd64;
+  padding: 3rem;
+}
+
 .about-sub > img {
   max-height: 230px;
   width: 280px;
@@ -174,10 +184,9 @@
 .about-companies {
   max-width: 800px;
   width: 90%;
-  background-color: #e9e9e9e9;
   border-radius: 8px;
   padding: 1rem .5rem;
-  margin: 1rem auto;
+  margin: 3rem auto;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
