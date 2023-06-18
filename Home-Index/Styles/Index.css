@@ -9,6 +9,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 60%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
@@ -26,8 +27,6 @@
 }
 
 .gradient-btn {
-  width: 200px;
-  height: 45px;
   font-size: 1.2rem;
   display: grid;
   place-items: center;
@@ -45,9 +44,14 @@
   -moz-transition: 0.3s ease-in-out;
   -ms-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
-  text-transform: uppercase;
-  margin-top: 1.5rem;
   font-weight: 500;
+}
+
+.main-content .gradient-btn {
+  width: 200px;
+  height: 45px;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
 }
 
 .gradient-btn:hover {
@@ -68,4 +72,183 @@
     height: 40px;
     font-size: 0.8rem;
   }
+}
+
+.about {
+  padding: 1rem;
+  text-align: center;
+}
+
+.about > h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.about-sub {
+  display: flex;
+  max-width: 1000px;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+.about-sub > img {
+  max-height: 230px;
+  width: 280px;
+  max-width: 90%;
+  animation: animateimage 1s linear;
+  -webkit-animation: animateimage 1s linear;
+}
+
+@keyframes animateimage {
+  from {
+    transform: translateY(-15px);
+    opacity: 0.5;
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}
+
+.about-sub .sub-sub-about {
+  padding: 2.5rem;
+  animation: animate;
+  -webkit-animation: animatetext 0.5s linear;
+}
+
+@keyframes animatetext {
+  from {
+    transform: translateY(15px);
+    opacity: 0.5;
+    -webkit-transform: translateY(15px);
+    -moz-transform: translateY(15px);
+    -ms-transform: translateY(15px);
+    -o-transform: translateY(15px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}
+
+.about-sub .sub-sub-about p {
+  font-size: 16px;
+}
+
+.about-sub .gradient-btn {
+  margin-top: 15px;
+  width: 125px;
+  height: 30px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .about-sub {
+    flex-direction: column;
+  }
+
+  .about-sub:last-child {
+    flex-direction: column-reverse;
+  }
+
+  .about-sub > img {
+    max-height: 200px;
+    width: 280px;
+    max-width: 90%;
+    padding-left: 2rem;
+  }
+}
+
+.about-companies {
+  max-width: 800px;
+  width: 90%;
+  background-color: #e9e9e9e9;
+  border-radius: 8px;
+  padding: 1rem .5rem;
+  margin: 1rem auto;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.about-companies h1 {
+  font-size: 2.5rem;
+  color: #171717;
+  margin-bottom: 1.5rem;
+}
+
+.about-companies .company-logos {
+  display: flex;
+  justify-content: space-evenly;
+  color: #547cf2;
+  font-size: 2.5rem;
+  transition: .3 ease-in;
+  -webkit-transition: .3 ease-in;
+  -moz-transition: .3 ease-in;
+  -ms-transition: .3 ease-in;
+  -o-transition: .3 ease-in;
+  max-width: 75%;
+  margin: 0px auto;
+}
+
+.about-companies .company-logos .fa-brands:hover {
+  color: #171717;
+}
+
+@media screen and (max-width:600px) {
+  .about-companies h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-companies .company-logos {
+    font-size: 1.3rem;
+  }
+}
+
+.subscribe {
+  text-align: center;
+  padding: 3rem 2rem 2rem 2rem;
+}
+
+.subscribe-box {
+  padding: 10px;
+  margin-top: .8rem;
+}
+
+.subscribe-box input {
+  max-width: 300px;
+  width: 65%;
+  padding: 5px 10px;
+  height: 40px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.subscribe-box button {
+  border: none;
+  background-color: #c544e9;
+  height: 40px;
+  padding: 0 1rem;
+  color: #fff;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }

@@ -891,12 +891,11 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-top: 4900px;
-
+top: 4700px;
 position: relative;
 width: 100%;
 height: 150px;
-background: #1A202C;
+background: #3767F3;
 }
 
 .footer .logo {
@@ -916,31 +915,11 @@ background: #1A202C;
 
 .footer .logo .logokebi{
     margin-left: 0%;
-    width: 100px;
-}
-.footer .logo .logokebi p{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* padding: 12px 44px; */
-    gap: 10px;
-    
-    width: 150px;
-    height: 48px;
-    
-    /* WF Base/400 ⦿ */
-    
-    background: #CBD2E0;
-    border-radius: 4px;
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
+.footer .logo .logokebi img{
+    width: 55px;
+}
 .footer .logo .logonormal {
     width: 75%;
 }
@@ -1009,7 +988,7 @@ font-size: 14px;
 line-height: 150%;
 letter-spacing: -0.01em;
 font-feature-settings: 'calt' off;
-color: #CBD2E0;
+color: black;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -1024,7 +1003,7 @@ float: right;
 
 .footer .text .kebijakan a{
     text-decoration: none;
-    color: #fff;
+    color: black;
     padding-left: 10px;
     float: right;
     font-family: 'Inter';
@@ -1294,6 +1273,7 @@ float: right;
 }
 
 .faq .hubungi .contact_us button{
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
