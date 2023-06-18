@@ -300,8 +300,19 @@
   margin: auto 0;
 }
 
-.footer .logo .company-logos {
+.footer .logo .company-logos i {
   font-size: 2.5rem;
+  transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -ms-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  margin: 0 0.6rem;
+}
+
+.footer .logo .company-logos i:hover {
+  font-size: 2.5rem;
+  color: #fff;
 }
 
 .footer .text {
