@@ -1,13 +1,18 @@
 @media screen and (min-width: 820px) {
+  
   body {
     width: 100%;
     margin: 0%;
   }
-  /*  */
-  /*  */
   .mobile_menu {
     display: none;
   }
+}
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  
 
   .header {
     box-sizing: border-box;
@@ -248,42 +253,50 @@
     margin-block-end: 0.5em;
   }
   div.trend {
-    position: absolute;
-    width: 1304px;
-    height: 677px;
+    flex-wrap: wrap;
+    max-width: 3000px;
+    margin: 300px 0px 50px 100px;
     left: 104px;
     top: 150px;
   }
   div.boxframe {
-    display: flex;
+    margin-top: 50px;
+    display: inline-flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
     padding: 0px;
     gap: 35px;
 
-    position: absolute;
-    width: 1050px;
-    height: 532px;
+    max-width: 3000px;
     left: 0px;
     top: 145px;
   }
-
+  
   div.box {
-    max-width: 100%;
-    flex-basis: 30%;
+    max-width: 1500px;
+    max-height: 400px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
     padding: 36px 24px;
     gap: 24px;
-    width: 300px;
-    height: 400px;
-    background: #02d7e0;
+    background: #DB88F2;
     box-shadow: 8px 8px 32px rgba(74, 84, 104, 0.5);
     border-radius: 16px;
   }
+  /* @media screen and (max-width: 768px){
+    .boxframe{
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 500px;
+      height: 1500px;
+    }
+  } */
 
   div.box.n1 {
     
@@ -382,11 +395,10 @@
     align-items: center;
     padding: 0px;
     gap: 56px;
-    position: absolute;
+    position: relative;
     width: 1046.01px;
     height: 748px;
-    left: 233px;
-    top: 900px;
+    margin: 0px 50px 50px 200px;
   }
   .offertext {
     display: flex;
@@ -411,16 +423,13 @@
     flex-grow: 0;
   }
   .offersub {
-    font-family: "Inter";
+    font-family: "Archivo";
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 160%;
 
     text-align: center;
-    letter-spacing: -0.01em;
-    font-feature-settings: "calt" off;
-
     color: #1a202c;
 
     flex: none;
@@ -451,30 +460,29 @@
     left: calc(50% - 1050px / 2);
     top: 252px;
 
-    background: #cbd2e0;
+    background: #6387F2;
 
     box-shadow: 8px 8px 32px rgba(74, 84, 104, 0.5);
     border-radius: 28px;
   }
-
+  
   .propanel {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding: 24px;
     gap: 21px;
-
+    
     position: absolute;
     width: 296px;
     height: 469px;
     left: calc(50% - 350px / 2 - 0px);
     top: 188px;
-
-    background: #2d3648;
+    
+    background: #D95A2B;
     box-shadow: 8px 8px 24px rgba(26, 32, 44, 0.5);
     border-radius: 28px;
   }
-
   .starpanel {
     display: flex;
     flex-direction: row;
@@ -650,27 +658,24 @@
   .activities {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     padding: 0px;
     gap: 32px;
 
-    position: absolute;
-    width: 1304px;
-    height: 1500px;
-    left: 104px;
-    top: 1936px;
+    position: relative;
+    max-width: 2500px;
+    margin-left: auto;
   }
 
   .activityframe {
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding: 0px;
     gap: 32px;
 
-    width: 1304px;
-    height: 1200px;
+    max-width: 2500px;
 
     flex: none;
     order: 0;
@@ -685,8 +690,8 @@
     padding: 36px;
     gap: 63px;
 
-    width: 1304px;
-    height: 300px;
+    max-width: 1004px;
+    max-height: 500px;
 
     background: #cbd2e0;
 
@@ -694,15 +699,15 @@
     border-radius: 16px;
 
     flex: none;
+    flex-wrap: wrap;
     flex-grow: 0;
   }
 
   .activityimg {
     box-sizing: border-box;
 
-    width: 308px;
-    height: 228px;
-
+    width: 300px;
+    height: 150px;
     background: #edf0f7;
 
     border: 2px solid #2d3648;
@@ -719,8 +724,8 @@
     align-items: flex-start;
     padding: 0px;
     gap: 12px;
-
-    width: 751px;
+    
+    width: fit-content;
     height: 150px;
 
     flex: none;
@@ -748,7 +753,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-
+    width: fit-content;
     letter-spacing: -0.01em;
     font-feature-settings: "calt" off;
 
@@ -793,7 +798,7 @@
     order: 1;
     flex-grow: 0;
   }
-  .custom_menu {
+  /* .custom_menu {
     display: flex;
     align-items: flex-start;
     padding: 0px;
@@ -962,5 +967,5 @@
 
   .active {
     border-bottom: 2px solid;
-  }
-}
+  } */
+
