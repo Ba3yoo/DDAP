@@ -7,46 +7,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="index_desktop.css">
     <link rel="stylesheet" href="index_mobile.css">
+    <link rel="stylesheet" href="Navbar.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+  />
 </head>
 <body>
-    <section class="header">
-        <div class="menu">
-            <div class="logo">
-                <img class="new_logo" src="images/KEBI-logo.png">
-            </div>
-            <div class="list">
-                <a class="beranda"   href="../index.html">
-                    BERANDA
-                </a>
-                <a class="program" href="../Programs/Programs.html">
-                    PROGRAM
-                </a>
-                <a class="article" href="../Article/Article.html">
-                    ARTIKEL
-                </a>
-                <a class="about" href="../about/about.html">
-                    ABOUT
-                </a>
-            </div>
+    <nav class="nav">
+        <div class="brand">
+          <img src="./images/KEBI-Logo-Full_Color.png" alt="KEBI-logos_black" />
+          <a href="/">KEBI</a>
         </div>
-        <div class="search_auth">
-            <a class="search">
-                <img src="images/icomoon-free_search.png">
-            </a>
-            <div class="user_option">
-                <div class="masuk">
-                    <a href="../user_option/login.html">
-                        MASUK
-                    </a>
-                </div>
-                <div class="daftar">
-                    <a href="../user_option/register.html">
-                        DAFTAR
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+
+        <a class="fa-solid fa-bars" aria-hidden="true" id="openButton"></a>
+
+        <ul class="menu-hidden">
+          <a class="fa-solid fa-times" aria-hidden="true" id="closeButton"></a>
+          <li><a href="../Home-Index/Index.html">Beranda</a></li>
+          <li><a href="../Programs/Programs.html">Program</a></li>
+          <li><a href="../Article/Article.html">Artikel</a></li>
+          <li><a href="../about/about.html">Tentang</a></li>
+          <li><span> | </span></li>
+          <li><a href="/">Masuk</a></li>
+          <li><a href="/">Daftar</a></li>
+        </ul>
+      </nav>
 
     <section class="about_section1">
         <!-- <div class="isi"> -->
@@ -263,7 +247,7 @@
     <section class="footer">
         <div class="logo">
             <div class="logokebi">
-                <p>Kebi logo</p>
+                <img src="./images/KEBI-Logo-Full_Color.png" alt="KEBI-logos_black" />
             </div>
             <div class="logonormal">
                 <img class="linkedin" src="images/KEBI-logos.jpeg">
@@ -285,6 +269,6 @@
         </div>
     </section>
     <script src="about_.js"></script>
-    <!-- <script src="about.js"></script> -->
+    <script src="Navbar.js"></script>
 </body>
 </html>

@@ -14,32 +14,26 @@
   </head>
   <body>
     <!----- Navbar Menu ------->
-    <nav class="header">
-      <div class="menu">
-        <div class="logo">
-          <img class="new_logo" src="Gambar/KEBI.png" />
-        </div>
-        <div class="list">
-          <a class="beranda" href="../index.html"> BERANDA </a>
-          <a class="program" href="../Programs/aa.html"> PROGRAM </a>
-          <a class="article" href="../Article/Article.html"> ARTIKEL </a>
-          <a class="about" href="../about/about.html"> ABOUT </a>
-        </div>
+    <nav>
+      <div class="brand">
+        <img src="./Images/KEBI-Logo-Full_Color.png" alt="KEBI-logos_black" />
+        <a href="/">KEBI</a>
       </div>
-      <div class="search_auth">
-        <a class="search">
-          <img src="images/icomoon-free_search.png" />
-        </a>
-        <div class="user_option">
-          <div class="masuk">
-            <a href="../user_option/login.html"> MASUK </a>
-          </div>
-          <div class="daftar">
-            <a href="../user_option/register.html"> DAFTAR </a>
-          </div>
-        </div>
-      </div>
+
+      <a class="fa-solid fa-bars" aria-hidden="true" id="openButton"></a>
+
+      <ul class="menu-hidden">
+        <a class="fa-solid fa-times" aria-hidden="true" id="closeButton"></a>
+        <li><a href="/Home-Index/Index.html">Beranda</a></li>
+        <li><a href="/">Program</a></li>
+        <li><a href="/">Artikel</a></li>
+        <li><a href="/">Tentang</a></li>
+        <li><span> | </span></li>
+        <li><a href="/">Masuk</a></li>
+        <li><a href="/">Daftar</a></li>
+      </ul>
     </nav>
+
     <!----- First ------->
     <section class="First">
       <div class="container">
